@@ -65,7 +65,35 @@ Analytics / AI
 Decision or Action
 ```
 
-This approach enables businesses to make decisions based on current information rather than historical reports.
+### Pipeline Components
+
+#### 1. Data Source
+
+The Data Source is the origin of the data entering the pipeline. Data can be generated continuously from a wide variety of systems, including IoT sensors, mobile applications, websites, financial transactions, medical devices, surveillance cameras, social media platforms, or enterprise databases. In real-time systems, these sources continuously produce streams of events that need to be processed as they arrive.
+
+---
+
+#### 2. Data Ingestion
+
+Data Ingestion is the process of collecting data from one or more sources and transporting it into the processing pipeline. During this stage, data is received, validated, and routed to downstream systems. Data ingestion platforms such as Apache NiFi or Apache Kafka are commonly used to efficiently handle high-throughput data streams while ensuring reliable data transfer.
+
+---
+
+#### 3. Data Processing
+
+Once the data has been ingested, it moves to the Data Processing stage. Here, the incoming data is cleaned, transformed, filtered, enriched, and aggregated into a usable format. Processing may also include detecting anomalies, calculating statistics, joining multiple data sources, or preparing data for machine learning applications.
+
+---
+
+#### 4. Analytics / AI
+
+The processed data is then analyzed to extract meaningful insights. This stage may involve traditional data analytics, statistical analysis, visualization, or artificial intelligence algorithms. Machine learning models can classify data, detect anomalies, make predictions, or recognize patterns that support intelligent decision-making.
+
+---
+
+#### 5. Decision or Action
+
+The final stage converts analytical results into meaningful actions. Depending on the application, this may involve triggering alerts, updating dashboards, sending notifications, activating automated systems, storing processed results, or providing recommendations for human decision-makers. The primary objective is to enable timely responses based on continuously arriving data.
 
 ---
 
